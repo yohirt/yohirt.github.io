@@ -207,9 +207,11 @@ punkty = punkty + [[5]]
 
 zycia = 3
 zycia [[-=]] 1
+# teraz życia wynoszą 2
 
 monety = 4
 monety [[*=]] 2
+# teraz monety wynoszą 8
 
 print(punkty, zycia, monety)
 `,distractors:["==","/=","if","def"]},{id:"vars-15-fill-fstring",title:"Zadanie 11: f-string",mode:"fill",description:"Uzupełnij komunikat z użyciem f-stringa. f-string pozwala w prosty sposób wstawić wartości zmiennych do tekstu. Wystarczy przed stringiem dodać literę f i użyć nawiasów klamrowych {} do oznaczenia miejsca, gdzie ma się pojawić wartość zmiennej. Dzięki temu można łatwo tworzyć dynamiczne komunikaty, które zawierają aktualne dane z programu.",rawCode:`
